@@ -3,17 +3,11 @@ IBEHS 1P10 Mini Milestone 4 Main File
 
 Team Number: 24
 
-Student 1 Details (Name, Student Number): Sheridan Fong, 400240385
-
-
-Student 2 Details (Name, Student Number): Madison Trafford 400261091
-
 
 Date: October 11th 2019
 '''
 import math
 
-##Student ID: 400261091
 
 #Objective 1: Calculate output speed for a gearing mechanism
 def objective1(gear_ratio, input_speed):
@@ -23,14 +17,12 @@ def objective1(gear_ratio, input_speed):
     return output_speed
 
 
-##Student ID: 400240385
 
 #Objective 2: Calculating number of motor revolutions per 90* rotation
 def objective2(gearR):
     Rotations = gearR * 0.25
     return Rotations
 
-##Student ID: 400261091
 
 #Objective 3: Calculate the x-y coordinates of the forefinger tip
 #angle corresponds to the angle of forefinger rotation
@@ -43,7 +35,6 @@ def objective3 (angle):
     y_coordinate = round (y_coordinate, 2)
     return [x_coordinate, y_coordinate]
 
-##Student ID: 400240385
 
 #Objective 4: Calculating the required time to rotate the finger from open to close(90*)
 def objective4(RPM, gearR):
