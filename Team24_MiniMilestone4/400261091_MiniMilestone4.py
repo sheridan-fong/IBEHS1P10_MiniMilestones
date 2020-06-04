@@ -1,13 +1,10 @@
 '''
 IBEHS 1P10 Mini Milestone 4 Individual File
-Name: Madison Trafford
-
-Student Number: 400261091
 
 Date: October 11, 2019
 '''
 
-##Student ID: (trafform)
+
 '''
 ADD INDIVIDUAL OBJECTIVES HERE (e.g., objective1(), objective2(), etc.)
 '''
