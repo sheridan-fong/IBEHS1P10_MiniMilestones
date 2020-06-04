@@ -3,12 +3,6 @@ IBEHS 1P10 Mini Milestone 10 Main File
 
 Team Number: 24
 
-Student 1 Details (Name, Student Number): Madison Trafford, 400261091
-
-
-Student 2 Details (Name, Student Number): Sheridan Fong, 400240385
-
-
 Date: January 24th 2020
 '''
 
@@ -46,11 +40,6 @@ def read_file(filename):
 
 
 
-
-
-
-##Student ID: 400261091
-
 def simulate_motion(input_speed, gear_list1, gear_list2):
     gear_ratio = calc_GR(gear_list1, gear_list2)
     time_elapsed = calc_elapsed_time(input_speed, gear_ratio)
@@ -65,7 +54,6 @@ def simulate_motion(input_speed, gear_list1, gear_list2):
             total_time += time_elapsed
     return (data_list)
 
-##Student ID: 400240385
 
 def find_gear_config(GR, Gear_Number):
     Gear_List = []
@@ -105,9 +93,7 @@ def main():
         data = find_gear_config(Gear_Ratio,IO_gears)
         print(Gear_Ratio, data)
         
-    
-    
-        
+   
 
 #Add function call here (main)
 main()
