@@ -1,8 +1,5 @@
 '''
 IBEHS 1P10 Mini Milestone 10 Individual File
-Name: Sheridan Fong
-
-Student Number: 400240385
 
 Date: January 24th 2020
 '''
@@ -27,10 +24,6 @@ def calc_elapsed_time(input_speed, gear_ratio):
     return elapsed_time
 
 
-
-
-##Student ID: 400240385
-
 def find_gear_config(GR, Gear_Number):
     Gear_List = []
     FL_input = 12
@@ -47,10 +40,5 @@ def find_gear_config(GR, Gear_Number):
        
 
             
-##Do not include any function calls - as they will be called in main()
-Gear_List = [12,20,32, 12, 24]
-GR = 16/3
-data = find_gear_config(GR, Gear_List)
-print(data)
 
 
