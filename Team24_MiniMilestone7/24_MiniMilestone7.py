@@ -3,11 +3,6 @@ IBEHS 1P10 Mini Milestone 7 Main File
 
 Team Number: 24
 
-Student 1 Details (Name, Student Number): Sheridan Fong 400240385
-
-
-Student 2 Details (Name, Student Number): Madison Trafford, 400261091
-
 
 Date: November 22 2019
 '''
@@ -41,9 +36,6 @@ def calc_CD(pitch_diameter_list):
 
 
 
-
-##Student ID: 400261091 Objective 1
-
 def verify_gear_ratio (team_gear_ratio,first_level,second_levelf,second_levelt):
 #Calling calc_GR function and calculating the gear ratio
     forefinger = calc_GR(first_level,second_levelf)
@@ -57,7 +49,7 @@ def verify_gear_ratio (team_gear_ratio,first_level,second_levelf,second_levelt):
     else:
         print ("None are correct")
 
-##Student ID: 400240385 Objective 2
+
 
 def verify_center_distance(module, firstlevel, secondlevelF, secondlevelT):
     FIRST_LEVEL_CD = 42
@@ -95,9 +87,6 @@ def verify_center_distance(module, firstlevel, secondlevelF, secondlevelT):
         print("None of the gears match up :(")
 
 
-
-##Student ID: 400240385 Objective 3
-
 def read_file_case1(txtfile):
     #opens text file in read only mode
     file = open(txtfile, "r")
@@ -131,7 +120,6 @@ def find_gear():
     if isinlist == False:
             print("not in list.... :(")
 
-##Student ID: 400261091 Objective 4
 
 def read_file_case2(text_file):
 #opening and reading a text file
