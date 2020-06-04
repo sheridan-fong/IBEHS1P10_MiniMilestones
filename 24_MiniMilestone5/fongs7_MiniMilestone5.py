@@ -2,12 +2,11 @@
 IBEHS 1P10 Mini Milestone 5 Individual File
 Name:
 
-Student Number: 400240385
+
 
 Date: November 1 2019
 '''
 
-##Student ID: 400240385
 
 
 #Objective 2: Calculate the pitch diameter
