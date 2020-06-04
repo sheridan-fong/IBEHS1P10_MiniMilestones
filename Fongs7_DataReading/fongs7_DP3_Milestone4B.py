@@ -4,9 +4,6 @@ IBEHS 1P10 Mini Milestone 10 Main File
 Team Number: 24
 
 
-Student 1 Details (Name, Student Number): Sheridan Fong, 400240385
-
-
 Date: January 31st 2020
 '''
 import math
@@ -113,14 +110,6 @@ def main():
         print(data_list,'\t', round(average,2), '\t',round(choice1,2), '\t', round(choice2,2))
     except TypeError:
         print("There as an invalid input along the way, you cannot round NONE type")
-    
-    
-        
-
-
-
-    
-    
-
+   
 
 main()
