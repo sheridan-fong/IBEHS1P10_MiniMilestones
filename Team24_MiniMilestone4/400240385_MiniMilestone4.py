@@ -2,13 +2,9 @@
 IBEHS 1P10 Mini Milestone 4 Individual File
 Name:
 
-Student Number: 400240385
 
 Date: October 11th 2019
-'''
 
-##Student ID: 400240385
-'''
 ADD INDIVIDUAL OBJECTIVES HERE (e.g., objective1(), objective2(), etc.)
 '''
 import math
