@@ -3,17 +3,12 @@ IBEHS 1P10 Mini Milestone 5 Main File
 
 Team Number: 24
 
-Student 1 Details: Madison Trafford, 400261091
-
-
-Student 2 Details: Sheridan Fong, 400240385
 
 Date: November 1 2019
 '''
 
 import math
 
-##Student ID: 400261091
 
 #Objective 1: Calculate the gear ratio of your gearing mechanism
 
@@ -32,7 +27,7 @@ def objective1(First_level,Second_level):
     #finding then returning the total gear ratio
     return total_gear_ratio
 
-##Student ID: 400240385
+
 
 #Objective 2: Calculate the pitch diameter
 def objective2(teethlist, module):
@@ -45,8 +40,6 @@ def objective2(teethlist, module):
     return Pdiameter
 
 
-##Student ID: 400240385
-
 #Objective 3: Caluclate the center distance
 def objective3(diameterlist):
     total = 0
@@ -56,8 +49,6 @@ def objective3(diameterlist):
         Centredistance = (diameterlist[i]/2) + (diameterlist[i+1]/2)
         total += Centredistance
     return total
-
-##Student ID: 400261091
 
 #Objective 4:Calculate the x-y position of the forefinger in 10 degree increments from open to closed
 
